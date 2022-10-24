@@ -30,8 +30,8 @@ struct Person {
 
 int main(void) {
 
-	struct Person Neo = { "Neo", "St-Petersburg", 35, 180, 75 };
- 	printf("NICKNAME: %s\nCITY: %s\nAGE: %d\nHEIGHT: %d\nWEIGHT: %d\n", Neo.nickname, Neo.city, Neo.age, Neo.height, Neo.weight);
+	struct Person neo = { "Neo", "St-Petersburg", 35, 180, 75 };
+ 	printf("NICKNAME: %s\nCITY: %s\nAGE: %d\nHEIGHT: %d\nWEIGHT: %d\n", neo.nickname, neo.city, neo.age, neo.height, neo.weight);
 	
 	return 0;
 }
